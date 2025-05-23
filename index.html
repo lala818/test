@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Deep Drip 豆單/濾掛</title>
+  <!-- 可愛字體：Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #AEE6D8; /* Tiffany Blue */
+      font-family: 'Noto Sans TC', sans-serif;
+      color: #333;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+    form {
+      background-color: #ffffffdd;
+      max-width: 600px;
+      margin: auto;
+      padding: 25px 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+    label {
+      font-weight: 700;
+      display: block;
+      margin-top: 20px;
+      font-size: 1.1em;
+    }
+    input[type="text"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 8px 10px;
+      margin-top: 5px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+    input[type="submit"] {
+      background-color: #20C997;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-size: 1.1em;
+      cursor: pointer;
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+    }
+    input[type="submit"]:hover {
+      background-color: #17B28D;
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+      margin-right: 5px;
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Deep Drip 豆單/濾掛</h1>
+  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfu9PRN8Uwfmd35CwAVFKIn4gvE-P7h_zYNrVRbnV-lr-R3eQ/formResponse" target="_self" method="POST">
+    <!-- 1. 姓名 -->
+    <label>1. 姓名：</label><br/>
+    <input type="text" name="entry.807276312" required><br/><br/>
+
+    <!-- 2. 電話 -->
+    <label>2. 電話：</label><br/>
+    <input type="text" name="entry.2008028690" required><br/><br/>
+
+    <!-- 3. 咖啡豆品項 -->
+    <label>3. 咖啡豆品項（可複選）：</label><br/>
+    <input type="checkbox" name="entry.1159720932" value="巴拿馬"> 巴拿馬 翡翠莊園 綠標藝妓 日曬處理法（半磅）<br/>
+    <input type="checkbox" name="entry.1159720932" value="可娜"> 夏威夷 可娜 KONA 水洗處理法（半磅）<br/>
+    <input type="checkbox" name="entry.1159720932" value="吉諾特加"> 尼加拉瓜 吉諾特加 水洗處理法（半磅）<br/><br/>
+
+    <!-- 4. 濾掛包品項 + 數量 -->
+    <label>4. 濾掛包品項（可複選）與數量：</label><br/>
+    <input type="checkbox" name="entry.786808030" value="味蕾的旅行"> 味蕾的旅行
+    <input type="number" name="entry.984661133" placeholder="幾包" min="1" style="width:60px;"><br/>
+
+    <input type="checkbox" name="entry.786808030" value="森林漫遊"> 森林漫遊
+    <input type="number" name="entry.2000365829" placeholder="幾包" min="1" style="width:60px;"><br/>
+
+    <input type="checkbox" name="entry.786808030" value="日出的太陽"> 日出的太陽
+    <input type="number" name="entry.1797017684" placeholder="幾包" min="1" style="width:60px;"><br/><br/>
+
+    <!-- 5. 是否需磨粉 -->
+    <label>5. 是否需磨粉：</label><br/>
+    <input type="radio" name="entry.786194845" value="是"> 是<br/>
+    <input type="radio" name="entry.786194845" value="否"> 否<br/><br/>
+
+    <!-- 6. 自取或寄送 -->
+    <label>6. 自取或寄送：</label><br/>
+    <input type="radio" name="entry.637000764" value="自取"> 自取<br/>
+    <input type="radio" name="entry.637000764" value="寄送"> 寄送<br/><br/>
+
+    <!-- 7. 地址 -->
+    <label>7. 地址：</label><br/>
+    <input type="text" name="entry.686036091"><br/><br/>
+
+    <!-- 8. 悄悄話 -->
+    <label>8. 悄悄話：</label><br/>
+    <textarea name="entry.1874115703" rows="4" cols="50"></textarea><br/><br/>
+
+    <input type="submit" value="我要咖啡">
+  </form>
+</body>
+</html>
